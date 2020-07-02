@@ -1,9 +1,9 @@
-# Listing_8-1.py
+# Listing_8-4.py
 # Copyright Warren & Carter Sande, 2013
 # Released under MIT license   http://www.opensource.org/licenses/mit-license.php
 # Version $version  ----------------------------
 
-# A very simple for loop
-#一个非常简单的 for 循环
-for looper in [1, 2, 3, 4, 5]:
-    print "hello"
+# A loop using range()
+#使用 range() 的循环
+for looper in range (1, 5):
+    print looper, "times 8 =", looper * 8
